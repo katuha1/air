@@ -1,0 +1,295 @@
+@font-face {
+	font-family: 'Montserrat'; 
+	src: url("/Montserrat/Montserrat-Medium.ttf"); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    color: #000000;
+}
+
+html, body {
+    font-family: "Montserrat", sans-serif;
+    width: 1500px;
+    margin: 0 auto;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.header{
+    background-color: #9CBFDD;
+    padding: 0.4rem 5%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+.test-0-logo img{
+    width: 100px;
+}
+.test-0-logo p{
+    color: #fff;
+    font-weight: bold;
+}
+.content{
+    width: 100%;
+    height: 700px;
+    background: url("images/slider.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.content .stocks1{
+    color:#fff;
+    margin-left: 3rem;
+    padding-top: 3rem;
+    font-size: 35px;
+    font-weight: bold;
+}
+.content .stocks2{
+    position: absolute;
+    color:#fff;
+    right: 3rem;
+    bottom: 3rem;
+    font-size: 35px;
+    font-weight: bold;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+.circle1{
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    background-color: #9CBFDD;
+    margin-right: 0.3rem;
+}
+.circle2{
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: #2691CC;
+    margin-right: 0.3rem;
+}
+.heart{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    background: url("images/plane.png");
+}
+.heart h1{
+    text-align: center;
+    padding: 3rem;
+    color: #FFB169;
+}
+.text-heart{
+    border-radius: 10px;
+    margin-top: 8rem;
+    position: absolute;
+    background-color: #fff;
+    width: 1000px;
+    height: 390px;
+    box-shadow: 0 0 5px;
+}
+.heading{
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 20px;
+}
+.view{
+    display: flex;
+    justify-content: center;  
+    margin-top: 1rem;
+}
+.security{
+    display: flex;
+    align-items: center;
+    margin-right: 5rem;
+}
+.security p{
+    font-size: 25px;
+    margin-left: 0.5rem;
+}
+.text-point{
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.text-point div{
+    margin-top: 0rem;
+    margin-left: 0rem;
+}
+.ticket{
+    width: 100%;
+    height: 300px;
+    background-color: #83A9CA;
+    margin-top: 10rem;
+    
+}
+.ticket h1{
+    padding-top: 2rem;
+    text-align: center;
+    color: #fff;
+}
+.easy{
+    padding: 3rem;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.form input{
+    width: 10rem;
+    height: 4rem;
+    margin-left: 0.2rem;
+}
+
+.test-0-fd{
+    border-radius: 8px 0 0 8px;
+}
+.test-0-fnp {
+    border-radius: 0 8px 8px 0;
+}
+input::placeholder{
+    color: #83A9CA;
+    font-size: 20px;
+    text-align: center;
+}
+.test-0-fbs{
+    border-radius: 8px;
+    background-color: #FFB169;
+    color: #fff;
+    width: 10rem;
+    height: 4rem;
+    margin-left: 0.2rem;
+    cursor:pointer;
+}
+.test-0-fbs p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.stocks h1{
+    text-align: center;
+    color: #FFB169;
+    padding: 3rem;
+}
+.stocks-block{
+    display: flex;
+    justify-content: center;
+}
+.stocks-block1{
+    background-color: #83A9CA;
+    width: 380px;
+    height: 470px;
+    margin: 0 1rem;
+}
+.stocks-block1 img{
+    width: 350px;
+    margin: 1rem 1rem;
+}
+
+.test-0-an{
+    color: #fff;
+    font-size: 20px;
+    padding-left: 1rem;
+}
+.test-0-ad{
+    font-size: 14px;
+    color: #fff;
+    padding-left: 1rem;
+}
+.caption{
+    margin-top: 3rem;
+    background-color: #83A9CA;
+    height: 230px;
+}
+.caption h1{
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+
+.caption input{
+    width: 30rem;
+    height: 4rem;
+}
+.nad{
+    display: flex;
+    justify-content: center;
+}
+.test-0-sie{
+    border-radius: 8px 0 0 8px;
+    margin-right: 1rem;
+}
+.test-0-sbs {
+    border-radius: 0 8px 8px 0;
+    background-color: #FFB169;
+    color: #fff;
+    width: 30rem;
+    height: 4rem;
+    cursor: pointer;
+}
+
+.test-0-sbs p{
+font-size: 20px;
+font-weight: bold;
+color: #fff;
+}
+
+footer{
+    position: relative;
+    display: flex;
+    padding: 0.4rem 5%;
+    justify-content: space-between;
+    margin-top: 3rem;
+    height: 230px;
+    background-color: #83A9CA;
+}
+
+.logo img{
+    width: 100px;
+    margin: 3.5rem 0 1rem;
+}
+.logo p{
+    color: #fff;
+    font-weight: bold;
+}
+.onn{
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.test-0-phone p{
+    margin-top: 5rem;
+    color:#fff
+}
+
+.cop{
+    position: absolute;
+    color:#fff;
+    bottom: 1rem;
+    left: 45%;
+}

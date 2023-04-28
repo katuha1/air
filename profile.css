@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url("/Montserrat/Montserrat-Medium.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    color: #000000;
+}
+
+html,
+body {
+    font-family: "Montserrat", sans-serif;
+    width: 1500px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.header {
+    background-color: #9CBFDD;
+    padding: 0.4rem 5%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+.test-0-logo img {
+    width: 100px;
+}
+
+.test-0-logo p {
+    color: #fff;
+    font-weight: bold;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 740px;
+    background: url("images/bgcar.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.et{
+    display: flex;
+    justify-content: space-between;
+}
+
+.prof{
+    display: flex;
+    margin-left: 3rem;
+    margin-top: 8rem;
+    width: 420px;
+    height: 110px;
+    align-items: center;
+}
+
+.prof img{
+    width: 110px;
+    height: 110px;
+}
+
+.prof h3{
+    font-weight: 100;
+    margin-left: 1rem;
+}
+
+.prof h3:not(:last-child){
+    margin-bottom: 0.7rem;
+}
+
+.bron{
+    margin-top: 8rem;
+    margin-right: 10rem;
+}
+
+.brr{
+    font-weight: 100;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.yes{
+    font-weight: 100;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.yess{
+    font-weight: 100;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+.noo{
+    font-weight: 100;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.no {
+    font-weight: 100;
+    margin-left: 1rem;
+}
+
+.bl {
+    width: 571px;
+    height: 420px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+.otdel{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tyd, .td{
+    font-weight: 100;
+    margin-right: 2rem;
+}
+
+.tdd{
+    font-weight: 100;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer {
+    position: relative;
+    display: flex;
+    padding: 0.4rem 5%;
+    justify-content: space-between;
+    height: 230px;
+    background-color: #83A9CA;
+}
+
+.logo img {
+    width: 100px;
+    margin: 3.5rem 0 1rem;
+}
+
+.logo p {
+    color: #fff;
+    font-weight: bold;
+}
+
+.onn {
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.test-0-phone p {
+    margin-top: 5rem;
+    color: #fff
+}
+
+.cop {
+    position: absolute;
+    color: #fff;
+    bottom: 1rem;
+    left: 45%;
+}
